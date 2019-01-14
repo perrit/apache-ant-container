@@ -11,6 +11,8 @@ This is a container based off `openjdk:11-jdk` and adds the `ant` package from t
 ```bash
 docker run --rm -ti perrit/apache-ant ant --help
 docker run --rm -ti perrit/apache-ant ant -version
+docker run --rm -ti registry.gitlab.com/perrit/apache-ant-container ant --help
+docker run --rm -ti registry.gitlab.com/perrit/apache-ant-container ant -version
 ```
 
 ## Links
